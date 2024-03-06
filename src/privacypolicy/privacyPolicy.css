@@ -1,0 +1,53 @@
+/* main component  */
+
+.privacy-main{
+    margin-top: -110px;
+    height: auto;
+}
+@media screen and (max-width:500px) {
+    .telx{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+/* side nav  */
+.side-tex{
+    width: 50%;
+}
+
+
+
+
+
+
+
+/* text privacy  */
+
+.ain-pritext{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 80px;
+    align-items: flex-start;
+}
+.ain-pritext p{
+    align-items: flex-start;
+    display: flex;
+}
+@media screen and (max-width:500px) {
+    .ain-pritext{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
+
+

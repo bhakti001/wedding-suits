@@ -1,0 +1,78 @@
+.wed-mai{
+    display: grid;
+    grid-template-columns: repeat(2, 50% 50%) ;
+}
+.wed-img1{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/consultation.jpeg");
+}
+.wed-second{
+    position: relative;
+        width: 800px;
+        height: 100vh;
+        background-color: #88a6a6;
+        color: white;
+    }
+    .wed-one{
+        margin-top: 250px;
+        font-size: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: butler;
+    }
+    .wedt-second{
+        font-size: 15px;
+     font-family: butler;
+     padding-left: 20px;
+     
+     padding-right: 20px;
+     font-style: italic;
+    }
+    .wed-third{
+        padding-left: 40px;
+        padding-right: 50px;
+        margin-top: 30px;
+        font-size: 18px;
+        font-family: eb-garamond;
+    }
+    .wed-btn{
+        margin-top: 40px;
+    padding: 10px;
+        font-size: 13px;
+        font-family: butler;
+        border-bottom: 2px solid white;
+    }
+@media screen and (max-width:920px) {
+    .wed-mai{
+        display: grid;
+        grid-template-columns: repeat(1,100% ) ;
+    }
+   
+    .wed-second{
+        width: 100%;
+    }
+    .deco-img{
+        margin-top: 65px;
+    }
+}
+@media screen and (max-width:430px) {
+    .wed-second{
+        height: 500px;
+    }
+    .wed-one{
+        margin-top: 100px;
+    }
+    .wed-img1{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/consultation.jpeg");
+    }
+    .deco-img{
+        margin-top: 60px;
+    }
+}

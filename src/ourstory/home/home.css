@@ -1,0 +1,82 @@
+.o-history{
+    display: grid;
+    grid-template-columns: repeat(2, 30% 70%) ;
+}
+.our-se{
+    background-color: #516146;
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    color: white;
+}
+.our-one{
+    margin-top: 200px;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: butler;
+}
+.our-second{
+    font-size: 15px;
+ font-family: butler;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-style: italic;
+}
+.our-third{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.our-btn{
+    margin-top: 10px;
+padding: 10px;
+    font-size: 13px;
+    font-family: butler;
+    border-bottom: 2px solid white;
+}
+.our-four{
+    font-size: 17px;
+    margin-top: 40px;
+}
+.our-five{
+    padding: 10px;
+            font-size: 15px;
+            font-family: butler;
+            font-style: italic;
+        }
+        .our-oneimg{
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            background-size: 100% 100%;
+            background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/history-slider-1.jpeg");
+        }
+      
+@media screen and (max-width:920px) {
+    .o-history{
+        display: grid;
+        grid-template-columns: repeat(1,100% ) ;
+    }
+    .our-se{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media screen  and (max-width:430px){
+    .our-se{
+        height: 800px;
+    }
+    .our-one{
+        margin-top: 100px;
+    }
+    .our-oneimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/history-slider-1.jpeg");
+    }
+}

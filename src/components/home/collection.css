@@ -1,0 +1,200 @@
+.main-tab{
+    margin-top: 50px;
+    background-color: #1b2829;
+}
+.main-t{
+    display: grid;
+    grid-template-columns: repeat(2,60% 40%);
+}
+.main-tex{
+    padding-top: 100px;
+}
+.p-one{
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: butler;
+    color: white;
+}
+.p-two{
+    font-size: 13px;
+    font-family: serif;
+    font-style: italic;
+    color: white;
+}
+.p-three{
+    font-size: 15px;
+    font-family: butler;
+    padding: 30px;
+    color: white;
+}
+.p-btn{
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    border-bottom: 2px solid white;
+    margin-bottom: 100px;
+}
+.p-btn:hover{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+.main-img img{
+width: 100%;
+height: 70vh;
+}
+@media screen and (max-width:650px) {
+    .main-t{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+    }
+}
+.suit-main{
+    width: 100%;
+    height: 50vh;
+}
+
+.suit-img {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.5)), url("../../assets/img2.jpg");
+    height: 95vh;
+    object-fit: cover;
+    object-position: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+}
+
+.tut-one{
+    position: relative;
+    
+    margin-top: -600px;
+    margin-right: 500px;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: butler;
+    color: white;
+}
+.tut-two{
+    margin-right: 540px;
+    font-size: 18px;
+font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    font-family: butler;
+    color: white;
+}
+.tut-three{
+    font-size: 19px;
+    margin-top: 40px;
+    display: flex;
+    align-self:  flex-start;
+    align-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    font-family: butler;
+    color: white;
+    margin-left: 700px;
+    width: 500px;
+}
+.p-btn1{
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    margin-top: 40px;
+    border-bottom: 2px solid white;
+    margin-bottom: 100px;
+    margin-left: 220px;
+}
+@media screen and (max-width:1230px) {
+    .tut-three{
+        margin-left: 600px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .tut-three{
+        margin-left: 400px;
+    }
+}
+@media screen and (max-width:910px) {
+    .tut-three{
+        margin-left: 200px;
+    }.p-btn1{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:710px) {
+    .tut-one{
+        margin-right:0px;
+        display: flex;
+        justify-content: center;
+    }
+    .tut-two{
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .tut-three{
+        display: flex;
+        justify-content: center;
+        width:auto;
+        margin-right: 140px;
+    }.p-btn1{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:600px) {
+    .tut-three{
+        display: flex;
+        justify-content: center;
+        width:400px;
+        margin-left: 50px;
+    }.p-btn1{
+        margin-left: 0px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:455px) {
+   .suit-img{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.5)), url("../../assets/img1.jpg");
+    height: 95vh;
+    object-fit: cover;
+    object-position: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+   }
+   .tut-one{
+    margin-top: -700px;
+   }
+    .tut-three{
+        display: flex;
+        justify-content: center;
+        width:300px;
+        margin-left: 70px;
+    }.p-btn1{
+        margin-left: 0px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:400px) {
+   .suit-img{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.5)), url("../../assets/img1.jpg");
+    height: 95vh;
+    object-fit: cover;
+    object-position: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+   }
+   .tut-one{
+    margin-top: -600px;
+   }
+    .tut-three{
+        
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        width:300px;
+        margin-left: 20px;
+    }.p-btn1{
+        margin-left: 0px;
+        justify-content: center;
+    }
+}

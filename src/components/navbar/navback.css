@@ -1,0 +1,261 @@
+.img{
+    background-image: url(../../assets/Homepage-hero-image.jpeg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-showroom{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/showroomsBANNER-HERO-DESKTOP-TEMPLATE.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-contactus{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/Lounge-Suits-Westbury-3-1.jpeg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-ourstory{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/about-usBANNER-HERO-DESKTOP-TEMPLATE.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-weddingf{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/2fayreBANNER-HERO-DESKTOP-TEMPLATE.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-personal{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/sewingBANNER-HERO-DESKTOP-TEMPLATE.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-boysuit{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/DSC_2705-boys-HERO-DESKTOP-.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-waistcoats{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/wcoat-banner-hero.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-accessories{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/ACCESSORIES-BANNER-HERO-DESKTOP-TEMPLATE.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.img-faqsw{
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/02/faqs2-BANNER-HERO-DESKTOP-TEMPLATE.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: -110px;
+}
+.ts-p{
+    font-size: 60px;
+    font-family: butler;
+    color: white;
+    padding-top: 230px;
+}
+.ts-cont{
+    font-size: 60px;
+    font-family: butler;
+    color: white;
+    padding-top: 230px;
+}
+.ts-conts{
+    font-size: 60px;
+    font-family: butler;
+    color: white;
+    padding-top: 230px;
+}
+.ts-accessories{
+    font-size: 100px;
+    font-family: butler;
+    color: white;
+    padding-top: 230px;
+}
+.ts-boys{
+    font-size: 60px;
+    font-family: butler;
+    color: white;
+    padding-top: 350px;
+}
+.to-p{
+    font-size: 60px;
+    font-family: butler;
+    color: white;
+    padding-top: 380px;
+}
+
+.ts-s{
+    font-size: 18px;
+    color: white;
+    font-family:butler ;
+    font-style: italic;
+}
+.ts-6{
+    transform: rotate(-90deg);
+    margin-top: 230px;
+    color: white;
+}
+ @media screen and (max-width:1550px) {
+    .ts-6{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:710px) {
+    .ts-p{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:580px) {
+    .ts-p{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:500px) {
+    .ts-p{
+        font-size: 40px;
+    }
+    .img-showroom{
+        /* margin-top: 590px; */
+background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/showrooms-mobile-portrait.jpg");
+background-size: 100% 100%;
+    }
+}
+@media screen and (max-width:435px) {
+    .img{
+        margin-top: -110px;
+    }
+}
+@media screen and (max-width:430px) {
+.ts-main{
+    padding-top: 200px;
+}
+.ts-p{
+    font-size: 80px !important;
+}
+
+    .ts-mn{
+        margin-top: -700px;
+    }
+}
+@media screen and (max-width:465px) {
+    .ts-p{
+        font-size: 40px;
+    }
+    .ts-6{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:430px) {
+    .img{
+        margin-top: 590px;
+    }
+    .img-showroom{
+        margin-top: 580px;
+background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/showrooms-mobile-portrait.jpg");
+background-size: 100% 100%;
+    }
+    .img-contactus{
+        margin-top: 580px;
+background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/contact-us-mobile-portrait.jpg");
+background-size: 100% 100%;
+    }
+    .img-ourstory{
+        margin-top: 580px;
+background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/about-us-mobile-portrait.jpg");
+background-size: 100% 100%;
+    }
+    .img-weddingf{
+        margin-top: 580px;
+background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/fayre-mobile-portrait.jpg");
+background-size: 100% 100%;
+}
+
+.img-personal{
+    margin-top: 580px;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/PT-HERO-mobile-portrait.jpg");
+background-size: 100% 100%;
+    }
+    .img-boysuit{
+        margin-top: 580px;
+background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/boys-hero-mobile-portrait.jpg");
+background-size: 100% 100%;
+    }
+    .img-waistcoats{
+        margin-top: 580px;
+background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/wcoat-hero-mobile-and-desktop-main-rectangle-portrait.jpg");
+background-size: 100% 100%;
+}
+.img-accessories{
+    margin-top: 580px;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/HERO2-ACCESSORIES-mobile-and-desktop-main-rectangle-portrait.jpg");
+    background-size: 100% 100%;
+}
+.img-faqsw{
+    margin-top: 580px;
+background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/faqss-mobile-portrait.jpg");
+background-size: 100% 100%;
+}
+.ts-p{
+    padding-top:150px;
+    }
+    .ts-cont{
+    padding-top:160px;
+    }
+    .ts-conts{
+    padding-top:300px;
+    }
+    .ts-mainq{
+        height: 700px;
+    }
+    .ts-accessories{
+        font-size: 60px;
+    padding-top:160px;
+    }
+    .ts-boys{
+    padding-top:200px;
+    }
+    .to-p{
+        padding: 10px;
+        font-family: butler;
+        font-size: 45px;
+        color: white;
+    padding-top:150px;
+    }
+    .ts-6{
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width:430px) {
+    .img{
+        margin-top:580px;
+        height: 100vh;
+    }
+    .ts-p{
+    padding-top:10px;
+    font-size: 35px !important;
+    }
+    .ts-6{
+        margin-top: 130px;
+    }
+} 

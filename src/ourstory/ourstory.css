@@ -1,0 +1,221 @@
+.our-history{
+    display: grid;
+    grid-template-columns: repeat(2, 50% 40%) ;
+margin-top:80px;
+}
+.our-people{
+    margin-top:80px;
+    margin-bottom:80px;
+    display: grid;
+    grid-template-columns: repeat(2, 30% 70%) ;
+}
+.our-peopleimg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/our-people-desktop.jpg");
+}
+.our-tailorimg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/try-on.jpg");
+}
+.our-showimg{
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/2our-showrooms-desktop.jpg");
+}
+.our-showroomimg{
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/pt.jpg");
+}
+.our-section{
+    position: relative;
+        width: 633px;
+        height: 100vh;
+        background-color: white;
+        color: black;
+    }
+    .our-oneshow{
+        margin-top: 200px;
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: butler;
+    }
+    .our-secondshow{
+        font-size: 15px;
+     font-family: butler;
+     padding-left: 20px;
+     padding-right: 20px;
+     font-style: italic;
+    }
+    .our-thirdshow{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 30px;
+        font-size: 18px;
+        font-family: eb-garamond;
+    }
+    .our-btnshow{
+        margin-top: 40px;
+    padding: 10px;
+        font-size: 13px;
+        font-family: butler;
+        border-bottom: 1px solid black;
+    }
+    .our-btnshow:hover{
+        border-top: 1px solid black ;
+    }
+    .our-secondpeople{
+        position: relative;
+            width: 600px;
+            height: 100vh;
+            background-color: white;
+            color: black;
+        }
+        .our-onepeo{
+            margin-top: 160px;
+            font-size: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: butler;
+        }
+        .our-secondpeo{
+            font-size: 15px;
+         font-family: butler;
+         padding-left: 20px;
+         padding-right: 20px;
+         font-style: italic;
+        }
+        .our-thirdpeo{
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 30px;
+            font-size: 18px;
+            font-family: eb-garamond;
+        }
+        .s-oneour{
+            width: 100%;
+            height: 700px;
+        }
+    @media screen and (max-width:1250px) {
+        .our-section{
+            width: 555px;
+            margin-left: -55px;
+        }
+    }
+    @media screen and (max-width:1200px) {
+        .our-section{
+            width: 555px;
+            margin-left: -75px;
+        }
+    }
+    @media screen and (max-width:1100px) {
+        .our-section{
+            width: 555px;
+            margin-left: -115px;
+        }
+    }
+    @media screen and (max-width:1000px) {
+        .our-section{
+            width: 555px;
+            margin-left: -155px;
+        }
+    }
+    @media screen and (max-width:940px) {
+        .our-section{
+            width: 555px;
+            margin-left: -185px;
+        }
+    }
+@media screen and (max-width:920px) {
+    .our-people{
+        display: grid;
+        grid-template-columns: repeat(1,100% ) ;
+    }
+    .our-secondpeople{
+        width: 100%;
+    }
+    .our-history{
+        display: grid;
+        display: flex;
+        flex-direction: column-reverse;
+        grid-template-columns: repeat(1, 100%) ;
+    }
+    .our-showimg{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        background-size: 100% 100%;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/2our-showrooms-desktop.jpg");
+    }
+    .our-section{
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:500px) {
+    .showroom-map{
+        margin-bottom: 130px;
+    }
+}
+@media screen and (max-width:430px) {
+    .our-showimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/2our-showrooms-desktop.jpg");
+    }
+    .our-showroomimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/pt.jpg");
+    }
+    .our-peopleimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/our-people-desktop.jpg");
+    }
+    .our-tailorimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/try-on.jpg");
+    }
+    .our-secondpeople{
+        height: 700px;
+    }
+    .our-section{
+        height: 800px;
+    }
+    .our-oneshow{
+        margin-top: 80px;
+    } 
+    .our-onepeo{
+        margin-top: 80px;
+    } 
+    .showroom-map{
+        margin-bottom: 100px;
+    }
+    .our-people{
+        margin-bottom: -40px;
+    }
+}
+

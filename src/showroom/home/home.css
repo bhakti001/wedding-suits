@@ -1,0 +1,722 @@
+.l-mn{
+    display: grid;
+    grid-template-columns: repeat(2, 30% 70%) ;
+}
+.l-one{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/Hero-Lounge-Suits-Collection.jpeg");
+}
+.l-second{
+position: relative;
+    width: 600px;
+    height: 100vh;
+    background-color: #516146;
+    color: white;
+}
+.ls-one{
+    margin-top: 250px;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: butler;
+}
+.ls-second{
+    font-size: 15px;
+ font-family: butler;
+ padding-left: 20px;
+ padding-right: 20px;
+ font-style: italic;
+}
+.ls-third{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: eb-garamond;
+}
+.ls-btn{
+    margin-top: 40px;
+padding: 10px;
+    font-size: 13px;
+    font-family: butler;
+    border-bottom: 2px solid white;
+}
+.deco-img{
+    width: 100%;
+    margin-top: 210px;
+}
+@media screen and (max-width:1555px) {
+    .deco-img{
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width:920px) {
+    .l-mn{
+        display: grid;
+        grid-template-columns: repeat(1,100% ) ;
+    }
+    .l-one{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        background-size: 100% 100%;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/Hero-Lounge-Suits-Collection.jpeg");
+    }
+    .l-second{
+        width: 100%;
+    }
+    .deco-img{
+        margin-top: 65px;
+    }
+}
+@media screen and (max-width:800px) {
+    .deco-img{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:650px) {
+    .deco-img{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:560px) {
+    .deco-img{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:450px) {
+    .l-one{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/shot-19-0447-MOBILE-PORTRAIT-COLLECTIONS.jpg");
+        background-size: 100% 100%;
+    }
+}
+@media screen and (max-width:430px) {
+    .l-second{
+        height: 500px;
+    }
+    .ls-one{
+        margin-top: 100px;
+    }
+    .l-one{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/shot-19-0447-MOBILE-PORTRAIT-COLLECTIONS.jpg");
+    }
+    .deco-img{
+        margin-top: 60px;
+    }
+}
+
+.m-one{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/12/homepage-carousel-bottm-3.jpeg");
+}
+.showroom-one{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/shrewsbury2-showroom.jpg");
+}
+
+.showroom-oneimg{
+    width: 100%;    
+    height: 100vh;
+    position: relative;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/telford2-showroom.jpg");
+}
+.showroom-three{
+    width: 100%;    
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/knutsford-showroom.jpg");
+}
+.showroom-twoimg{
+    background-size: 100% 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/tettenhall-showroom.jpg");
+}
+.showroom-fourimg{
+    background-size: 100% 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/birmingham-showroom.jpg");
+}
+.showroom-fiveimg{
+    background-size: 100% 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/warwick-showroom.jpg");
+}
+.showroom-siximg{
+    background-size: 100% 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/cheltenham2-showroom.jpg");
+}
+.m-second{
+    background-color: red;
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    color: white;
+}
+.showroom-se{
+    background-color: #516146;
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    color: white;
+}
+.showroom-th{
+    background-color: #88a6a6;
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    color: white;
+}
+.showroom-wa{
+    background-color: #14465f;
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    color: white;
+}
+.tu-second{
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    background-color: #000;
+    color: white;
+}
+.tu-seconds{
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    background-color: #000;
+    color: white;
+}
+.te-seconds{
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    background-color: #cc5028;
+    color: white;
+}
+.bi-seconds{
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    background-color: #14222f;
+    color: white;
+}
+.ch-seconds{
+    position: relative;
+    width: 633px;
+    height: 100vh;
+    background-color: #ff6f4f;
+    color: white;
+}
+
+/* tweed suit  */
+.ts-m{
+        display: grid;
+        grid-template-columns: repeat(2, 60% 35%) ;
+    
+}
+.t-one{
+    margin-top: 0px;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/DSC_2211-tweed-HERO-DESKTOP.jpg");
+}
+.t-second{
+    position: relative;
+        width: 633px;
+        height: 100vh;
+        background-color: #88a6a6;
+        color: white;
+    }
+    .ts-one{
+        margin-top: 250px;
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: butler;
+    }
+    .ts-oneshow{
+        margin-top: 150px;
+        font-size: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: butler;
+    }
+    .ts-second{
+        font-size: 15px;
+     font-family: butler;
+     padding-left: 20px;
+     padding-right: 20px;
+     font-style: italic;
+    }
+    .ts-third{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 30px;
+        font-size: 18px;
+        font-family: eb-garamond;
+    }
+    .ts-btn{
+        margin-top: 40px;
+    padding: 10px;
+        font-size: 13px;
+        font-family: butler;
+        border-bottom: 2px solid white;
+    }
+    .showroom-btn{
+        margin-top: 10px;
+    padding: 10px;
+        font-size: 13px;
+        font-family: butler;
+        border-bottom: 2px solid white;
+    }
+    .showroom-four{
+        font-size: 17px;
+        margin-top: 40px;
+    }
+    .showroom-five{
+padding: 10px;
+        font-size: 15px;
+        font-family: butler;
+        font-style: italic;
+    }
+    .button-showroom{
+border: 1px solid white;
+padding: 10px;
+font-family: butler;
+width: 250px;
+transition: 2s;
+background: transparent;
+    }
+    .button-showroom:hover{
+border: none;
+transition: 2s;
+padding: 10px;
+background: rgba(255, 255, 255, 0.3);;
+width: 250px;
+    }
+    .decot-img{
+        width: 100%;
+        margin-top: 210px;
+    }
+    @media screen and (max-width:1555px) {
+        .decot-img{
+            margin-top: 110px;
+        }
+    }
+    @media screen and (max-width:1500px) {
+        .decot-img{
+            margin-top: 110px;
+        }
+    .tu-second{
+        width: 600px;
+    }
+    .tu-seconds{
+        width: 600px;
+    }
+    .te-seconds{
+        width: 600px;
+    }
+    .bi-seconds{
+        width: 600px;
+    }
+    .ch-seconds{
+        width: 600px;
+    }
+    .t-second{
+        width: 600px;
+    }
+    }
+    @media screen and (max-width:1400px) {
+        .t-second{
+            width: 555px;
+        }
+        .tu-second{
+            width: 555px;
+        }
+        .tu-seconds{
+            width: 555px;
+        }
+        .te-seconds{
+            width: 555px;
+        }
+        .bi-seconds{
+            width: 555px;
+        }
+        .ch-seconds{
+            width: 555px;
+        }
+    }
+    @media screen and (max-width:1300px) {
+        .t-second{
+            width: 555px;
+            margin-left: -35px;
+        }
+        .tu-second{
+            width: 555px;
+            margin-left: -35px;
+        }
+        .tu-seconds{
+            width: 555px;
+            margin-left: -35px;
+        }
+        .te-seconds{
+            width: 555px;
+            margin-left: -35px;
+        }
+        .ch-seconds{
+            width: 555px;
+            margin-left: -35px;
+        }
+        .bi-seconds{
+            width: 555px;
+            margin-left: -35px;
+        }
+    }
+    @media screen and (max-width:1250px) {
+        .t-second{
+            width: 555px;
+            margin-left: -55px;
+        }
+        .tu-second{
+            width: 555px;
+            margin-left: -55px;
+        }
+        .tu-seconds{
+            width: 555px;
+            margin-left: -55px;
+        }
+        .te-seconds{
+            width: 555px;
+            margin-left: -55px;
+        }
+        .bi-seconds{
+            width: 555px;
+            margin-left: -55px;
+        }
+        .ch-seconds{
+            width: 555px;
+            margin-left: -55px;
+        }
+    }
+    @media screen and (max-width:1200px) {
+        .t-second{
+            width: 555px;
+            margin-left: -75px;
+        }
+        .tu-second{
+            width: 555px;
+            margin-left: -75px;
+        }
+        .tu-seconds{
+            width: 555px;
+            margin-left: -75px;
+        }
+        .te-seconds{
+            width: 555px;
+            margin-left: -75px;
+        }
+        .bi-seconds{
+            width: 555px;
+            margin-left: -75px;
+        }
+        .ch-seconds{
+            width: 555px;
+            margin-left: -75px;
+        }
+    }
+    @media screen and (max-width:1100px) {
+        .t-second{
+            width: 555px;
+            margin-left: -115px;
+        }
+        .tu-second{
+            width: 555px;
+            margin-left: -115px;
+        }
+        .tu-seconds{
+            width: 555px;
+            margin-left: -115px;
+        }
+        .te-seconds{
+            width: 555px;
+            margin-left: -115px;
+        }
+        .bi-seconds{
+            width: 555px;
+            margin-left: -115px;
+        }
+        .ch-seconds{
+            width: 555px;
+            margin-left: -115px;
+        }
+    }
+    
+    @media screen and (max-width:1000px) {
+        .t-second{
+            width: 555px;
+            margin-left: -155px;
+        }
+        .tu-second{
+            width: 555px;
+            margin-left: -155px;
+        }
+        .tu-seconds{
+            width: 555px;
+            margin-left: -155px;
+        }
+        .te-seconds{
+            width: 555px;
+            margin-left: -155px;
+        }
+        .bi-seconds{
+            width: 555px;
+            margin-left: -155px;
+        }
+        .ch-seconds{
+            width: 555px;
+            margin-left: -155px;
+        }
+    }
+    @media screen and (max-width:940px) {
+        .t-second{
+            width: 555px;
+            margin-left: -185px;
+        }
+        .tu-second{
+            width: 555px;
+            margin-left: -185px;
+        }
+        .tu-seconds{
+            width: 555px;
+            margin-left: -185px;
+        }
+        .te-seconds{
+            width: 555px;
+            margin-left: -185px;
+        }
+        .bi-seconds{
+            width: 555px;
+            margin-left: -185px;
+        }
+        .ch-seconds{
+            width: 555px;
+            margin-left: -185px;
+        }
+    }
+@media screen and (max-width:920px) {
+    .ts-m{
+        display: grid;
+        display: flex;
+        flex-direction: column-reverse;
+        grid-template-columns: repeat(1, 100%) ;
+    }
+    .t-one{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        background-size: 100% 100%;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/DSC_2211-tweed-HERO-DESKTOP.jpg");
+    }
+    .t-second{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .tu-second{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .tu-seconds{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .te-seconds{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .bi-seconds{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .ch-seconds{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .m-second{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .showroom-se{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .showroom-th{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .showroom-wa{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .decot-img{
+        margin-top: 65px;
+    }
+}
+@media screen and (max-width:800px) {
+    .decot-img{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:650px) {
+    .decot-img{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:560px) {
+    .decot-img{
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width:450px) {
+    .t-one{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/collections-mobile-tweed.jpg");
+        background-size: 100% 100%;
+    }
+}
+@media screen and (max-width:430px) {
+    .t-second{
+        height: 500px;
+    }
+    .tu-second{
+        height: 500px;
+    }
+    .tu-seconds{
+        height: 700px;
+    }
+    .te-seconds{
+        height: 700px;
+    }
+    .bi-seconds{
+        height: 700px;
+    }
+    .ch-seconds{
+        height: 700px;
+    }
+    .showroom-se{
+        height: 700px;
+    }
+    .m-second{
+        height: 500px;
+    }
+    .showroom-th{
+        height: 700px;
+    }
+    .showroom-wa{
+        height: 700px;
+    }
+    .ts-one{
+        margin-top: 100px;
+    }
+    .ts-oneshow{
+        margin-top: 100px;
+    }
+    .t-one{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/collections-mobile-tweed.jpg");
+    }
+    .m-one{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2023/09/DSC_7749-PS2-tailcoats-HERO-mobile-portrait.jpg");
+    }
+    .showroom-one{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/shrewsbury2-showroom.jpg");
+    }
+    .showroom-oneimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/telford2-showroom.jpg");
+    }
+    .showroom-twoimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/tettenhall-showroom.jpg");
+    }
+    .showroom-three{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/knutsford-showroom.jpg");
+    }
+    .showroom-fourimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/birmingham-showroom.jpg");
+    }
+    .showroom-fiveimg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/warwick-showroom.jpg");
+    }
+    .showroom-siximg{
+        background-size: 100% 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 70vh;
+        background-image: url("https://www.peterposh.co.uk/wp-content/uploads/2024/01/cheltenham2-showroom.jpg");
+    }
+    .decot-img{
+        margin-top: 60px;
+    }
+}

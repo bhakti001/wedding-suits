@@ -1,0 +1,10 @@
+@media screen and (max-width:500px) {
+    .showroom-map{
+        margin-bottom: 130px;
+    }
+}
+@media screen and (max-width:430px) {
+    .showroom-map{
+        margin-bottom: 100px;
+    }
+}

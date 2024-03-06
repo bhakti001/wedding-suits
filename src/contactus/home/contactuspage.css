@@ -1,0 +1,123 @@
+.main-page{
+    background: #1b2829;
+    color: white;
+    height: 700px;
+}
+.main-contact{
+    display: grid;
+    grid-template-columns: repeat(2,50% 50%);
+}
+.text-contact{
+margin-top: 200px;
+}
+.contact-h3{
+    font-size: 50px;
+    font-family: butler;
+}
+.contact-p1{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: eb-garamond;
+    font-weight: 100px;
+}
+.contact-p2{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: eb-garamond;
+    font-weight: 100px;
+}
+.contact-btn{
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    font-size: 12px;
+    padding: 5px;
+}
+.social-mia{
+    display: flex;
+    margin-left: 370px;
+    margin-top: 40px;
+    gap: 10px;
+    font-size: 20px;
+}
+.contact-button{
+    border: 1px solid white;
+    width: 100%;
+    padding: 10px;
+}
+.contact-button:hover{
+    transition: 2s;
+    background: #60696a;
+    border: 1px solid #60696a;
+    width: 100%;
+    padding: 10px;
+}
+.form-contact{
+    margin-top: 180px;
+}
+.form-p{
+    font-size: 11px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-t{
+    margin-left: 170px;
+}
+@media screen and (max-width:920px) {
+    .main-contact{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+    }
+    .text-contact{
+        margin-bottom: 30px;
+    }
+.form-contact{
+    margin-top: 80px;
+}
+.form-t{
+    margin-left: 140px;
+}
+    .main-page{
+        background: #1b2829;
+        color: white;
+        height: 1300px;
+    }
+}
+@media screen and (max-width:600px) {
+    .form-t{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:500px) {
+    .form-t{
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .form-t{
+        margin-left: 10px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width:430px) {
+    .text-contact{
+        margin-top: 80px;
+        }
+        .main-page{
+            background: #1b2829;
+            color: white;
+            height: 1300px;
+        }
+        .social-mia{
+            display: flex;
+            margin-left: 190px;
+            margin-top: 40px;
+            gap: 10px;
+            font-size: 20px;
+        }
+        .form-t{
+            padding-left:20px;
+            padding-right:40px;
+        }
+}

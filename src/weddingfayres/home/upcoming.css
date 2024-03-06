@@ -1,0 +1,85 @@
+.main-textw {
+  width: 100%;
+  height: auto;
+  margin-top: -70px;
+  background: #1b2829;
+}
+.upcoming-text {
+  padding-top: 200px;
+  color: white;
+}
+.ut-one {
+  font-size: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: butler;
+}
+.ut-two {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: eb-garamond;
+  font-weight: lighter;
+}
+.card-mddd{
+  margin-left: 180px;
+  padding-bottom: 20px;
+  background: #1b2829;
+}
+.main-c{
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width:1100px) {
+  .card-mddd{
+    margin-left: 0px;
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .upcoming-text {
+    padding-top: 100px;
+    color: white;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main-c{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-cdd{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .main-cddt{
+    width: 100%;
+  }
+  .main-cddb{
+    margin-top: -100px;
+    margin-left: 200px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .main-cddb{
+    margin-top: -100px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+.main-cddt{
+  margin-top: -45px;
+}
+  .main-cddb{
+    margin-top: -100px;
+    margin-left: 90px;
+    padding-bottom: 10px;
+  }
+
+}
+
+
+
